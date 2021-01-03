@@ -8,17 +8,21 @@ local json = require("libs.dkjson")
 local exit = os.exit
 local stderr = io.stderr
 local error = error
+local unpack = unpack
 
 local _M = {
     _VERSION = '0.01'
 }
 
 -- print a scalar value or table
-function _M.print(value)
-    if value and type(value) == 'table' then
-        print(json.encode(value,{ indent = true }))
+function _M.print(...)
+
+    local info = {...}
+
+    if info and type(info[1]) == 'table' then
+        print(json.encode(info,{ indent = true }))
     else
-        print(value)
+        print(unpack(info))
     end
 end
 
