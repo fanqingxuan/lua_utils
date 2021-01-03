@@ -31,8 +31,4 @@ function _M.die(value)
     exit(1)
 end
 
-function _M.isWindows()
-    return type(package) == 'table' and type(package.config) == 'string' and package.config:sub(1,1) == '\\'
-end
-
 return _M
