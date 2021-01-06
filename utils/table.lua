@@ -80,7 +80,7 @@ function _M.is_array(t)
     return true
 end
 
---- Merge one or more arrays
+--- Merge arrays into a new array
 function _M.merge(t1, t2)
     if not t1 then
       t1 = {}

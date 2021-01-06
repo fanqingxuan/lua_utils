@@ -107,11 +107,6 @@ function _M.upper(str)
     return upper(str)
 end
 
--- Make a string uppercase
-function _M.upper(str)
-    return upper(str)
-end
-
 -- Uppercase the first character of each word in a string
 function _M.ucwords(str, sep)
     str = str or ''
