@@ -1,4 +1,4 @@
-### This a pure Lua library that provides a set of utility functions for dealing with strings,tables,files and some others.
+### This is a pure Lua library that provides a set of utility functions for dealing with strings,tables,files and some others.
 
 ### debug
 
@@ -408,10 +408,6 @@ console.magenta(" this is magenta color");
 console.cyan(" this is cyan color");
 ```
 
-the text color as follows:
-
-![color](./color.png)
-
 And you can also write log with diffent color:
 
 ```lua
@@ -423,8 +419,6 @@ console.error("this is error log")
 console.debug("this is debug log")
 console.fatal("this is fatal log")
 ```
-
-![color](./log.png)
 
 The module also provide two function for sucess or fail output:
 
