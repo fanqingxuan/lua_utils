@@ -467,3 +467,4 @@ The project also collect some useful third library, You can click the link and r
 - [md5](https://github.com/kikito/md5.lua) a module for generating md5 string
 - [redis-lua](https://github.com/nrk/redis-lua/) you can use redis with this module
 - [memcached](https://github.com/silentbicycle/lua-memcached) you can play with memcached
+- [net-url](https://github.com/golgote/neturl) a library that can parse URL with querystring and build new URL easily
